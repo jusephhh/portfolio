@@ -1,32 +1,60 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 40px;
-    background-color: gray;   
+    background-color: cyan;
+    color: white;   
 }
 .Header {
     text-align: center;
+    margin-bottom: 30px;
 }
 
-.highlight {
+.profile{
     border-radius: 50%;
 }
 
-.about{
+.section{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba (0,0,0,0.1);
+    color: black;
+}
+
+.highlight {
+    color: #0077cc;
+}
+
+.table {
+    width: 100px;
+    border-collapse: collapse;
+}
+
+th,td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: #0077cc;
     color: white;
 }
 
-.Education{
-    color: white;
+a{
+    color: #0077cc;
+    text-decoration: non;
 }
 
-.Skills{
-    color: white;
+a:hover {
+    text-decoration: underline;
 }
 
 .footer {
     text-align: center;
-    color: black;
+    margin-top: 40px;
+    font-size: 14px;
+    color: gray;
 }
-
-
 
