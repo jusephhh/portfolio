@@ -1,0 +1,32 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px;
+    background-color: gray;   
+}
+.Header {
+    text-align: center;
+}
+
+.highlight {
+    border-radius: 50%;
+}
+
+.about{
+    color: white;
+}
+
+.Education{
+    color: white;
+}
+
+.Skills{
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    color: black;
+}
+
+
+
